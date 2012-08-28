@@ -7,3 +7,6 @@
 # eclipse
 .project
 
+
+# mac
+.DS_Store

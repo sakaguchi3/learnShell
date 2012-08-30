@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh 
 
 # =====================================================
 # Copyright (C) 2021 sakaguchi3(https://github.com/sakaguchi3/learnShell)
@@ -33,6 +33,8 @@ lock() {
 	# success 
 
 	what_you_want_to_do
+	
+	rm ${LOCK_FILE}
 }
 
 what_you_want_to_do(){

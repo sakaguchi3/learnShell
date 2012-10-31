@@ -1,0 +1,9 @@
+
+# def
+*.bak
+.ignoredir/
+
+
+# eclipse
+.project
+
